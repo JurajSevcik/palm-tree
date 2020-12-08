@@ -1,47 +1,57 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: latex_clanok_na_MIP_aktualizovane.aux
-I found no \bibdata command---while reading file latex_clanok_na_MIP_aktualizovane.aux
-I found no \bibstyle command---while reading file latex_clanok_na_MIP_aktualizovane.aux
-You've used 1 entry,
-            0 wiz_defined-function locations,
-            85 strings with 588 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+The style file: ieeetr.bst
+Database file #1: bibligraficky_subor.bib
+I was expecting an "="---line 49 of file bibligraficky_subor.bib
+ :  author={Touretzky,David 
+ :                          and Gardner-McCune,Christina and Breazeal,Cynthia and Martin,Fred and Seehorn,Deborah},
+I'm skipping whatever remains of this entry
+Repeated entry---line 67 of file bibligraficky_subor.bib
+ : @article{Opincariu2019EDUCATIONIT
+ :                                  ,
+I'm skipping whatever remains of this entry
+You've used 2 entries,
+            1876 wiz_defined-function locations,
+            493 strings with 3955 characters,
+and the built_in function-call counts, 610 in all, are:
+= -- 64
+> -- 8
 < -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
++ -- 4
+- -- 2
+* -- 32
+:= -- 81
+add.period$ -- 2
+call.type$ -- 2
+change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
+cite$ -- 2
+duplicate$ -- 42
+empty$ -- 61
+format.name$ -- 2
+if$ -- 158
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
+int.to.str$ -- 2
+missing$ -- 2
+newline$ -- 9
+num.names$ -- 2
+pop$ -- 7
+preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 0
+skip$ -- 35
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 37
+swap$ -- 22
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 0
+while$ -- 5
+width$ -- 3
+write$ -- 23
 (There were 2 error messages)
