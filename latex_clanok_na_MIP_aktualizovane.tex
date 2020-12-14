@@ -1,3 +1,4 @@
+% !TeX spellcheck = en_GB
 \documentclass[10pt,oneside,slovak,a4paper]{article}
 \usepackage[slovak]{babel}
 \usepackage[T1]{fontenc}
@@ -9,6 +10,9 @@
 \usepackage{cite}
 %\usepackage{times}
 \pagestyle{headings}
+\usepackage{graphics}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
 
 
 \title{5G a umelá inteligencia vo vzdelávaný\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2020/21, vedenie:}} 
@@ -73,9 +77,55 @@ Aplikacie zo začlenennov umelov inteligenciou získavajú dáta a v reálnom č
 
 Elektronizácia poskytne viac času pre učitelov aby sa venovaly žiakom ktorý to potrebujú alebo aby riešily problemy ktoré vyžadujú ichh pozornosť.  
 
-\subparagraph{Vyučovacie aplikacie}
-vzdelávaci program Texas...stredne a vysoké šloly, vytvára pre študentov prisposobený obsah a odosiela učitelovi pokroky studentov taktiež upravuje obsah na zaklade výsledkov študentov...
+\begin{figure}[h!]
+	%\centering
+	\includegraphics[width=0.7\linewidth]{obrazky/artificial-intelligence-applications-edtech-century-tech}
+	\caption{}
+	\label{fig:artificial-intelligence-applications-edtech-century-tech}
 
+
+\subsection{QUERIUM}
+\ref{khanacademy}
+Queriumje aplikacia obsahujúca umelú inteligenciu ktorú používa na prispôsobenie obsahua kontrolu postupu pri riešený metematických problémov. V aplikácii žiaci počítajú príklady krok po kroku a dostávajú okamžitú spätnú väzbu, toto riešeni dáva učitelom viac času zamerať sa na jednotlivých študentov. Aplikácia tektiež poskytuje spätnú väzbu na postup študentov kde sa učitelia dozvedia v ktorých krokokch a mali špecialne študenti problém a ktoré časti učiva je potrebné špeciálne zopakovať takže učitel nemusí prechádzať cez celé učivo znova a môže sa zamerať len na podstatné časti čím zisakjú viac časuna zatial neprebrané učivo.
+
+Súčastov Queria sú aj vidéa o ku témam, rýchli test ktorý preverí ake vedomasti a identifikuje slabé a silné stránky aby na základe toho prispôsobil osnovy.
+
+
+
+\subparagraph{vysledky:}
+V roku 2014 sa 11 študentov zúčastnilo testu pred a po používaný aplikácie, vyše 90 \% študentov si zlepšilo skóre v priemere o 10 bodov a až na jedneho študenta aplikácia šetkým pomohla. \ref{tabulka} \ref{querium_report}
+
+\end{figure}
+\label{tabulka}
+%graf querium 
+\pgfplotstableread[row sep=\\,col sep=&]{
+	interval & pred & po  \\
+	1        & 315  & 327 \\
+	2    	 & 310  & 332 \\
+	3    	 & 322  & 337 \\
+	4    	 & 340  & 340 \\
+	5    	 & 339  & 342 \\
+	6    	 & 335  & 342 \\
+	7    	 & 342  & 347 \\
+	8    	 & 338  & 350 \\
+	9    	 & 338  & 351 \\
+	10       & 345  & 351 \\
+	11       & 342  & 352 \\
+	
+	
+}\mydata
+
+
+\begin{tikzpicture}
+\begin{axis}[
+ybar,
+symbolic x coords={1,2,3,4,5,6,7,8,9,10,11},
+]
+\addplot table[x=interval,y=pred]{\mydata};
+\addplot table[x=interval,y=po]{\mydata};
+\end{axis}
+
+\end{tikzpicture}
 
 
 \subparagraph{Vyučovacie aplikacie}
@@ -83,7 +133,7 @@ vzdelávaci program Texas...stredne a vysoké šloly, vytvára pre študentov pr
 Rozšírena realita  (využitím umelej inteligencie na spravne umiestnenie objektov) obohacuje biologiu, geografiu ,fyziku pre deti nyžších rčníkov....Londín()
 \cite{AI}
 \subsection{ine študijne aplikacie}
-Umelá ointeligancia napojená pomocov vysokorýchlostného pripojenia je schopná využívať "data mining" algoritmus v reálnom čase a tým odokrívať nám nepoznané prepojenia a suvýslosti je schopný predefinovať spôsob akým dnes vnímame zdelanie ktoré je založeneé na metódach ktoré už boly vyvinuté už pred rokmy a nebralin  do úvahy technologické možnosti budúcnosti.
+Umelá ointeligancia napojená pomocov vysokorýchlostného pripojenia je schopná využívať data mining algoritmus v reálnom čase a tým odokrívať nám nepoznané prepojenia a suvýslosti je schopný predefinovať spôsob akým dnes vnímame zdelanie ktoré je založeneé na metódach ktoré už boly vyvinuté už pred rokmy a nebralin  do úvahy technologické možnosti budúcnosti.
 
 
 Dalšie aplikacie na pomoc študentom ako napríklad Nuance, na prepisovanie dovoého textu na poznamky alebo ine na prepisanie textu z tofografie na textový súbor ....matematicke aplikacie ...
@@ -111,11 +161,21 @@ Softvéry ktoré su schopné symulovať či tvorit ....\cite{10.1145/3399971.339
 \section{kedy a ako môžeme očakavat 5G a AI v triedach}
 
 
+
 \bibliography{bibligraficky_subor}
 
 \bibliographystyle{ieeetr}
 %\begin{thebibliography}{9}
 	
+\label{khanacademy} 
+\texttt{https://www.khanacademy.org/}
+\\
+\label{AI} 
+\texttt{https://www.nttdata.com/mm/en/digital/ai/2018/september/what-is-ai}
+\date{22.11.2020}
+\\
+\label{querium_report}
+\texttt{https://querium.com/wp-content/uploads/Querium-TSI-Math-Prep-Spring-2014-Beta-Test-Preliminary-Results.pdf}
 
 	
 	
