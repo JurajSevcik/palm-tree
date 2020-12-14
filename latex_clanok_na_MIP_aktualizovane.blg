@@ -5,11 +5,11 @@ Reallocating 'name_of_file' (item size: 1) to 20 items.
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: ieeetr.bst
 Database file #1: bibligraficky_subor.bib
-I was expecting an "="---line 49 of file bibligraficky_subor.bib
+I was expecting an "="---line 60 of file bibligraficky_subor.bib
  :  author={Touretzky,David 
  :                          and Gardner-McCune,Christina and Breazeal,Cynthia and Martin,Fred and Seehorn,Deborah},
 I'm skipping whatever remains of this entry
-Repeated entry---line 67 of file bibligraficky_subor.bib
+Repeated entry---line 78 of file bibligraficky_subor.bib
  : @article{Opincariu2019EDUCATIONIT
  :                                  ,
 I'm skipping whatever remains of this entry

@@ -1,11 +1,15 @@
-
 \documentclass[10pt,oneside,slovak,a4paper]{article}
-\usepackage[utf8]{inputenc}
 \usepackage[slovak]{babel}
-\usepackage{amsmath}
-\usepackage{amsfonts}
-\usepackage{amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[IL2]{fontenc} % lepšia sadzba písmena Ľ než v T1
+\usepackage[utf8]{inputenc}
 \usepackage{graphicx}
+\usepackage{url} % príkaz \url na formátovanie URL
+\usepackage{hyperref} % odkazy v texte budú aktívne (pri niektorých triedach dokumentov spôsobuje posun textu)
+\usepackage{cite}
+%\usepackage{times}
+\pagestyle{headings}
+
 
 \title{5G a umelá inteligencia vo vzdelávaný\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2020/21, vedenie:}} 
 
@@ -46,7 +50,7 @@ Nové technologie by tiež priniesly zmenu do samotneho systému vzdelavania kde
 Pod e-vzdelávaním teda rozumieme akékolvek zvdélávanie pomocou internetu či íných elektronických zariadení od mobilných telefónov či tabletov až po sústavy na vyrtuálnu realitu či najrôznejšie softverové časti ako webstaránky či vyučovacie softvery. Všetky tieto technologie prenášajú možnosť vzdelávať bližšie ako dedikolvek predtím a umožnujú rpístum k najrôznejším sposobom vzdelávanie v skoro všetkých oblastiach.
 
 \item 
-5G je piata generácia mobilnej komunikácie začala sa objavovať od roku 2019 ako nástupca 4G táto efektivna technologia podporuje viac zariadený a vačšiu rýchlosť čím umožnuje používať viac zariadený na opercie s vyžšov spotrebou dát a menšou latenciou, taktiež to otvorý celé nové spektrum technológií ako autonómne autá, smart city, vyrtualna realita či iné....
+5G je piata generácia mobilnej komunikácie začala sa objavovať od roku 2019 ako nástupca 4G táto efektivna technologia podporuje viac zariadený a vačšiu rýchlosť čím umožnuje používať viac zariadený na opercie s vyžšov spotrebou dát a menšou latenciou, taktiež to otvorý celé nové spektrum technológií ako autonómne autá, smart city, vyrtualna realita či IoT ktoré sa stane spolahlivejším, rýchlejším a užitočnejším.
 
 \item 
 Umelá inteligencia, alebo tiež artificial intelligence(AI), podla Housmana (2018): ''AI je schopná dvoch vecí: automatizovanie repetitívnich úloch predpovedaním výstupu na základe dát ktoré boly cložene človekom a vylepšovať ludské rozhodnutia zadávaním problemov do algoritmov vyvinutých človekom. ''
@@ -77,8 +81,10 @@ vzdelávaci program Texas...stredne a vysoké šloly, vytvára pre študentov pr
 \subparagraph{Vyučovacie aplikacie}
 
 Rozšírena realita  (využitím umelej inteligencie na spravne umiestnenie objektov) obohacuje biologiu, geografiu ,fyziku pre deti nyžších rčníkov....Londín()
-
+\cite{AI}
 \subsection{ine študijne aplikacie}
+Umelá ointeligancia napojená pomocov vysokorýchlostného pripojenia je schopná využívať "data mining" algoritmus v reálnom čase a tým odokrívať nám nepoznané prepojenia a suvýslosti je schopný predefinovať spôsob akým dnes vnímame zdelanie ktoré je založeneé na metódach ktoré už boly vyvinuté už pred rokmy a nebralin  do úvahy technologické možnosti budúcnosti.
+
 
 Dalšie aplikacie na pomoc študentom ako napríklad Nuance, na prepisovanie dovoého textu na poznamky alebo ine na prepisanie textu z tofografie na textový súbor ....matematicke aplikacie ...
 
@@ -106,18 +112,14 @@ Softvéry ktoré su schopné symulovať či tvorit ....\cite{10.1145/3399971.339
 
 
 \bibliography{bibligraficky_subor}
+
 \bibliographystyle{ieeetr}
-\begin{thebibliography}{9}
+%\begin{thebibliography}{9}
 	
-	\bibitem{khanacademy} 
-	\texttt{https://www.khanacademy.org/}
-	
-	\bibitem{AI} 
-	\texttt{https://www.nttdata.com/mm/en/digital/ai/2018/september/what-is-ai}
-	\date{22.11.2020}
+
 	
 	
-\end{thebibliography}
+%\end{thebibliography}
 
 \end{document}
 
