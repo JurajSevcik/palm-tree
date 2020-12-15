@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.19)  14 DEC 2020 21:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.19)  15 DEC 2020 16:39
 entering extended mode
 **./latex_clanok_na_MIP_aktualizovane2.tex
 (latex_clanok_na_MIP_aktualizovane2.tex
@@ -598,7 +598,11 @@ File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count290
 \l__pdf_internal_box=\box59
 )
-(latex_clanok_na_MIP_aktualizovane2.aux)
+(latex_clanok_na_MIP_aktualizovane2.aux
+
+LaTeX Warning: Label `khan_academy_learning' multiply defined.
+
+)
 \openout1 = `latex_clanok_na_MIP_aktualizovane2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
@@ -619,8 +623,7 @@ LaTeX Font Info:    Checking defaults for IL2/cmr/m/n on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
-
-("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
+ ("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count291
 \scratchdimen=\dimen266
@@ -681,37 +684,112 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 32.
  [1
 
-{C:/Users/jurse/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-
-LaTeX Warning: Citation `Opincariu2019EDUCATIONIT' on page 2 undefined on input
- line 47.
-
+{C:/Users/jurse/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2]
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 74.
+(hyperref)                removing `\textasciicaron' on input line 77.
 
-[2]
-<obrazky/artificial-intelligence-applications-edtech-century-tech.png, id=30, 7
+<obrazky/artificial-intelligence-applications-edtech-century-tech.png, id=69, 7
 49.80125pt x 443.6575pt>
 File: obrazky/artificial-intelligence-applications-edtech-century-tech.png Grap
 hic file (type png)
 <use obrazky/artificial-intelligence-applications-edtech-century-tech.png>
 Package pdftex.def Info: obrazky/artificial-intelligence-applications-edtech-ce
-ntury-tech.png  used on input line 82.
+ntury-tech.png  used on input line 86.
 (pdftex.def)             Requested size: 241.49895pt x 142.89397pt.
 
+LaTeX Warning: Reference `tabulka' on page 3 undefined on input line 101.
 
-LaTeX Warning: Reference `khanacademy' on page 3 undefined on input line 88.
-
-
-LaTeX Warning: Reference `tabulka' on page 3 undefined on input line 96.
-
-
-LaTeX Warning: Reference `querium_report' on page 3 undefined on input line 96.
-
-
-Package pgfplots info on input line 163: Using 'lua backend=false' for axis: x 
+Package pgfplots info on input line 119: Using 'lua backend=false' for axis: x 
 coord trafo unsupported.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)       
+(Font)              <7> on input line 123.
+[3 <./obrazky/artificial-intelligence-applications-edtech-century-tech.png>]
+[4]
+
+LaTeX Warning: Citation `AI' on page 5 undefined on input line 147.
+
+
+Overfull \hbox (11.7646pt too wide) in paragraph at lines 147--148
+ \IL2/cmr/m/n/10 [\IL2/cmr/bx/n/10 ?\IL2/cmr/m/n/10 ]Umelá in-te-li-gen-cia na-
+po-jená po-mo-cou vy-so-ko-rých-lost-ného pri-po-je-nia je schopná
+ []
+
+(latex_clanok_na_MIP_aktualizovane2.bbl)
+Overfull \hbox (3.7192pt too wide) in paragraph at lines 159--167
+[] \IL2/cmtt/m/n/10 https://www.nttdata.com/mm/en/digital/ai/2018/september/wha
+t-is-ai
+ []
+
+
+Overfull \hbox (213.71736pt too wide) in paragraph at lines 159--167
+[] \IL2/cmtt/m/n/10 https://querium.com/wp-content/uploads/Querium-TSI-Math-Pre
+p-Spring-2014-Beta-Test-Preliminary-Results.pdf 
+ []
+
+
+Overfull \hbox (11.24702pt too wide) in paragraph at lines 169--170
+[] \IL2/cmtt/m/n/10 Xconomy: Colorado state, meet cognii: Artificial intelligen
+ce in
+ []
+
+
+Overfull \hbox (662.99121pt too wide) in paragraph at lines 169--170
+\IL2/cmtt/m/n/10 education (2016). . Chatham: Newstex. Retrieved from https://s
+earch.proquest.com/blogs,-podcasts,-websites/xconomy-colorado-state-meet-cognii
+-artificial/docview/1793105199/se-2?accountid=50235 
+ []
+
+
+Overfull \hbox (215.99524pt too wide) in paragraph at lines 173--174
+[]\IL2/cmtt/m/n/10 http://david-hu.com/2011/11/02/how-khan-academy-is-using-mac
+hine-learning-to-assess-student-mastery.html 
+ []
+
+[5] (latex_clanok_na_MIP_aktualizovane2.aux)
+Package rerunfilecheck Info: File `latex_clanok_na_MIP_aktualizovane2.out' has 
+not changed.
+(rerunfilecheck)             Checksum: 73E4843DA89E8AADBAEF1E609B65CF0F;619.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 27750 strings out of 480257
+ 688168 string characters out of 2891252
+ 1106070 words of memory out of 3000000
+ 43793 multiletter control sequences out of 15000+200000
+ 548620 words of font info for 60 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 89i,9n,127p,761b,2092s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\jurse\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\c
+stt10.pk> <C:\Users\jurse\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/d
+pi600\csti10.pk> <C:\Users\jurse\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cs
+fonts/dpi600\csbx10.pk> <C:\Users\jurse\AppData\Local\MiKTeX\fonts/pk/ljfour/pu
+blic/csfonts/dpi600\csbx12.pk> <C:\Users\jurse\AppData\Local\MiKTeX\fonts/pk/lj
+four/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\jurse\AppData\Local\MiKTeX\fonts
+/pk/ljfour/public/csfonts/dpi720\csbx12.pk> <C:\Users\jurse\AppData\Local\MiKTe
+X\fonts/pk/ljfour/public/csfonts/dpi600\cssl10.pk> <C:\Users\jurse\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr8.pk> <C:\Users\jurse\AppData
+\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0600.pk> <C:\Users\jurse\A
+ppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr10.pk> <C:\Users\j
+urse\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csbx9.pk> <C:\U
+sers\jurse\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\cstt9.pk>
+ <C:\Users\jurse\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr
+9.pk> <C:\Users\jurse\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi60
+0\csr12.pk> <C:\Users\jurse\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
+i600\tcrm1200.pk> <C:\Users\jurse\AppData\Local\MiKTeX\fonts/pk/ljfour/public/c
+sfonts/dpi600\csr17.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmr10.pfb>
+Output written on latex_clanok_na_MIP_aktualizovane2.pdf (5 pages, 325037 bytes
+).
+PDF statistics:
+ 539 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 98 words of extra memory for PDF output out of 10000 (max. 10000000)
+

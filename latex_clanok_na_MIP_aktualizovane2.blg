@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: latex_clanok_na_MIP_aktualizovane2.aux
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+The style file: ieeetr.bst
+Database file #1: bibligraficky_subor.bib
+I was expecting an "="---line 60 of file bibligraficky_subor.bib
+ :  author={Touretzky,David 
+ :                          and Gardner-McCune,Christina and Breazeal,Cynthia and Martin,Fred and Seehorn,Deborah},
+I'm skipping whatever remains of this entry
+Repeated entry---line 78 of file bibligraficky_subor.bib
+ : @article{Opincariu2019EDUCATIONIT
+ :                                  ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "AI"
+You've used 2 entries,
+            1876 wiz_defined-function locations,
+            495 strings with 3961 characters,
+and the built_in function-call counts, 610 in all, are:
+= -- 64
+> -- 8
+< -- 0
++ -- 4
+- -- 2
+* -- 32
+:= -- 81
+add.period$ -- 2
+call.type$ -- 2
+change.case$ -- 2
+chr.to.int$ -- 0
+cite$ -- 2
+duplicate$ -- 42
+empty$ -- 61
+format.name$ -- 2
+if$ -- 158
+int.to.chr$ -- 0
+int.to.str$ -- 2
+missing$ -- 2
+newline$ -- 9
+num.names$ -- 2
+pop$ -- 7
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 35
+stack$ -- 0
+substring$ -- 37
+swap$ -- 22
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 5
+width$ -- 3
+write$ -- 23
+(There were 2 error messages)
